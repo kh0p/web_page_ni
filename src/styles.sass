@@ -7,19 +7,58 @@ body
   -o-background-size: cover
   background-size: cover
 	color: #fff
+	font-family: 'Roboto', sans-serif
+	font-weight: 300
 
 a
 	color: #fff
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+
+a:hover
+	color: #fff
+	filter: alpha(opacity=50)
+	opacity: 0.5
+
+p
+	-webkit-transition: opacity 1s ease-in-out
+	-moz-transition: opacity 1s ease-in-out
+	-ms-transition: opacity 1s ease-in-out
+	-o-transition: opacity 1s ease-in-out
+	transition: opacity 1s ease-in-out
+
+p:hover
+	filter: alpha(opacity=50)
+	opacity: 0.5
+
+img
+	-webkit-transition: opacity 1s ease-in-out
+	-moz-transition: opacity 1s ease-in-out
+	-ms-transition: opacity 1s ease-in-out
+	-o-transition: opacity 1s ease-in-out
+	transition: opacity 1s ease-in-out
+
+img:hover
+	filter: alpha(opacity=50)
+	opacity: 0.5
 
 li
-	
+	list-style-type: none
 
 header
 	//temp:
 	background-color: rgba(0,0,0,0.7)
 	margin: 40px 0 0
-	padding: 28px
+	padding: 32px
 	border-radius: 5px
+
+	h2
+		padding: 25px 0
+	h4
+		padding: 10px 0
 
 	.row 
 		.col-md-4 
@@ -29,13 +68,31 @@ header
 			.ul
 				li
 					padding: 20px 0
-					
-			
+
 nav
 	//temp:
 	background-color: rgba(0,0,0,0.7)
-	margin: 20px
-	padding: 28px 0
+	margin: 30px
+	padding: 32px 0
+	border-radius: 5px
+	
+.gallery
+	background-color: rgba(0,0,0,0.7)
+
+	padding: 32px 0
+	border-radius: 5px
+	
+	p
+		text-align: justify
+		margin-top: 10px
+		padding: 20px
+	.gallery-image
+		padding: 20px
+
+footer
+	background-color: rgba(0,0,0,0.7)
+	margin: 30px
+	padding: 32px 0
 	border-radius: 5px
 	
 .circle-link-to

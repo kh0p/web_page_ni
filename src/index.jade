@@ -5,30 +5,31 @@ html(lang="en")
 		meta(charset="utf-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+		link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Roboto:400,700,300")
 		link(rel="stylesheet", href="styles.css")
 		link(rel="shortcut icon", href="favicon.ico")
 	
 	body
-	
 		.container
+		
 			header.row
 				.col-md-4.text-center
 					img(src="avatar.png", alt="avatar", height="200", width="200").img-circle.rotating
 					h2: .glyphicon.glyphicon-console  和平:二
 					
 				.col-md-8.ul
-					li 
-						h4: a(href="#"): .glyphicon.glyphicon-headphones  listening to
-						p Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio.
-					li
-						h4: a(href="#"): .glyphicon.glyphicon-book  reading
-						p Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio.
-					li
-						h4: a(href="#"): .glyphicon.glyphicon-knight  playing vidya
-						p Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio.
-					li
-						h4: a(href="#"): .glyphicon.glyphicon-tree-deciduous  planting trees
-						p Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio.
+					li.text-center
+						h4.text-center: a(href="#"): .glyphicon.glyphicon-headphones
+						p <strong>listening to</strong> Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. 
+					li.text-center
+						h4: a(href="#"): .glyphicon.glyphicon-book
+						p <strong>reading</strong> Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. 
+					li.text-center
+						h4: a(href="#"): .glyphicon.glyphicon-knight
+						p <strong>playing vidya</strong> Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam.
+					li.text-center
+						h4: a(href="#"): .glyphicon.glyphicon-tree-deciduous
+						p <strong>planting trees</strong> Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. 
 				
 			nav.row
 				.col-sm-12.list-inline.text-center
@@ -38,5 +39,21 @@ html(lang="en")
 							h2: a(href="#"): .glyphicon.glyphicon-pencil
 						li.circle-link-to.rotating
 							h2: a(href="#"): .glyphicon.glyphicon-console
+							
+			.row.gallery
+				.col-md-6
+					img(src="http://placehold.it/475x475", alt="image 1", height="475", width="475").img-responsive.gallery-image.center-block
+					//img(src="http://placehold.it/230x230", alt="image 2", height="230", width="230").gallery-image
+					//img(src="http://placehold.it/230x230", alt="image 3", height="230", width="230").gallery-image
+					//img(src="http://placehold.it/230x230", alt="image 4", height="230", width="230").gallery-image
+				.col-md-6
+					h1.text-center Comic page gallery
+					p Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio. Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio. Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio
+					p Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio. Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio. Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio
 					
+			footer.row
+				.col-sm-12.text-center 
+					p
+						
+							h2 2015 Kazuhira
 					
