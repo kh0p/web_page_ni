@@ -5,16 +5,16 @@ html(lang="en")
 		meta(charset="utf-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
-		link(rel="stylesheet", href="css/styles.css")
+		link(rel="stylesheet", href="styles.css")
 		link(rel="shortcut icon", href="favicon.ico")
 	
 	body
 	
 		.container
-			.row
-				.col-md-4
+			header.row
+				.col-md-4.text-center
 					img(src="avatar.png", alt="avatar", height="200", width="200").img-circle
-					h2: .glyphicon.glyphicon-console  webpage二
+					h2: .glyphicon.glyphicon-console  和平:二
 					
 				.col-md-8.ul
 					li 
@@ -29,5 +29,14 @@ html(lang="en")
 					li
 						h4: a(href="#"): .glyphicon.glyphicon-tree-deciduous  planting trees
 						p Nam nec elementum sem. Duis sit amet ullamcorper lacus, eu ullamcorper diam. Duis pellentesque facilisis odio.
+				
+			nav.row
+				.col-sm-12.list-inline.text-center
+						li.circle-link-to
+							h2: a(href="#"): .glyphicon.glyphicon-picture
+						li.circle-link-to
+							h2: a(href="#"): .glyphicon.glyphicon-pencil
+						li.circle-link-to
+							h2: a(href="#"): .glyphicon.glyphicon-console
 					
 					
